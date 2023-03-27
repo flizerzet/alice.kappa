@@ -1,0 +1,58 @@
+html {
+	@media (prefers-color-scheme: dark) {
+		--bg-color: #181818;
+		--text-color: #fff;
+
+		.switcher__radio {
+			filter: invert(1);
+		}
+		.switcher__radio:checked {
+			filter: invert(0);
+		}
+		.switcher__status {
+			filter: invert(1);
+		}
+	}
+	&._dark {
+		--bg-color: #181818;
+		--text-color: #fff;
+
+		.switcher__radio {
+			filter: invert(1);
+		}
+		.switcher__radio:checked {
+			filter: invert(0);
+		}
+		.switcher__status {
+			filter: invert(1);
+		}
+	}
+	@media (prefers-color-scheme: light) {
+		--bg-color: #fff;
+		--text-color: #181818;
+
+		.switcher__radio {
+			filter: invert(0);
+		}
+		.switcher__radio:checked {
+			filter: invert(1);
+		}
+		.switcher__status {
+			filter: invert(0);
+		}
+	}
+	&._light {
+		--bg-color: #fff;
+		--text-color: #181818;
+
+		.switcher__radio {
+			filter: invert(0);
+		}
+		.switcher__radio:checked {
+			filter: invert(1);
+		}
+		.switcher__status {
+			filter: invert(0);
+		}
+	}
+}
