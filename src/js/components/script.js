@@ -1,10 +1,10 @@
 import { throttle, debounce, getDay, getMonth, getRandom } from "./functions.js";
 import { Modal } from "./modules.js";
 
-
 window.addEventListener('load', () => {
 	setTimeout(() => {
 		document.getElementById('preloader').classList.add('disappear')
+		document.body.classList.remove('_locked')
 	}, 1000)
 	setTimeout(() => {
 		document.getElementById('preloader').style.display = 'none'
