@@ -42,6 +42,46 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: Butler_Ultra_Light;
+  font-display: swap;
+  src: url("../fonts/Butler_Ultra_Light.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: VeranoSans;
+  font-display: swap;
+  src: url("../fonts/VeranoSans-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: VeranoSans;
+  font-display: swap;
+  src: url("../fonts/VeranoSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: VeranoSans;
+  font-display: swap;
+  src: url("../fonts/VeranoSans-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: VeranoSans;
+  font-display: swap;
+  src: url("../fonts/VeranoSans-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+
 /*---ОБНУЛЕНИЕ---*/
 
 * {
@@ -730,11 +770,11 @@ body._locked {
 }
 
 .aside {
-  width: 35%;
-  padding: 35px 0;
   position: fixed;
   top: 0;
   right: 0;
+  width: 35%;
+  padding: 35px 0;
 }
 
 .aside.aside-fixed {

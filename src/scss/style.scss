@@ -446,11 +446,11 @@ body {
 	}
 }
 .aside {
-	width: 35%;
-	padding: 35px 0;
 	position: fixed;
 	top: 0;
 	right: 0;
+	width: 35%;
+	padding: 35px 0;
 	&.aside-fixed {
 		position: absolute;
 		top: auto;
